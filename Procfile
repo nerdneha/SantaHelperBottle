@@ -1,1 +1,1 @@
-web: bin/python ./santahelperb.py $PORT
+web: python santahelperb.py 
