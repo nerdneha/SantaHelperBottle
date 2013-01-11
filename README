@@ -1,5 +1,6 @@
 Allows the user to input certain names in their "secret santa" group and specify certain people that should not get each other. Output is a complete loop of people that avoids the assignments specified. Prints out final pairings in a list on a separate page. 
 
+Can be used on santahelper.herokuapp.com
 Author: Neha Batra
 
 Libraries: Python standard libraries and Bottle
