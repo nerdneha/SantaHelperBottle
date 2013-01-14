@@ -34,7 +34,8 @@ def print_names():
                                                                   blacklist2)})
   #print gift_dictionary
   #return str(gift_dictionary)
-  return bottle.template("printednames", dict(matchings=gift_dictionary))
+  return bottle.template("printednames", dict(matchings=gift_dictionary, blname1
+                                              = blacklist1, blname2 = blacklist2))
 
 
 bottle.debug(True)

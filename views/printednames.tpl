@@ -1,9 +1,11 @@
 <html>
   <head>
-    <title>Your secret santa assignments are: </title>
+    <title>Secret Santa Assignments! </title>
   </head>
 
   <body>
+    Your secret santa pairings are as follows:
+    <br>
     %for person in matchings.keys():
     <ul>
       <li>
@@ -11,6 +13,9 @@
         {{person}} has {{match}}
       </li>
     </ul>
+    %end
+   As you can see, {{blname1}} and {{blname2}} don't have each other! Crisis
+   averted :)
   </body>
 
 </html>

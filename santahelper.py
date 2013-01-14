@@ -1,9 +1,6 @@
 import random
 import pprint
 
-#BLACKLIST = {
-#   }
-
 def shuffle_list(participants):
   gifters = participants[:]
   random.shuffle(gifters)
